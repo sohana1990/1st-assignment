@@ -8,3 +8,13 @@ h1{
 .highlight-color{
     color: deepskyblue;
 }
+.half-portfolio{
+    width: 40%;
+    float: left;
+    padding-left: 4%;
+    text-align: justify;
+    margin-left: 4%;
+}
+.half-portfolio img{
+    width: 100%;
+}
