@@ -1,20 +1,61 @@
 body{
-    font-family: 'Sofia', cursive;
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(215, 243, 174);
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(161, 245, 161),white);
+    
 
 }
 h1{
     font-size: 50px;
 }
 .highlight-color{
-    color: deepskyblue;
+    color: navy;
+    
 }
 .half-portfolio{
-    width: 40%;
+    width: 35%;
     float: left;
-    padding-left: 4%;
+    padding-left: 3%;
     text-align: justify;
-    margin-left: 4%;
+    margin-left: 5%;
 }
 .half-portfolio img{
     width: 100%;
+    
 }
+.project{
+    text-align: center;
+}
+
+.link-button{
+    padding: 5px 10px;
+    background-image: linear-gradient(rgb(241, 19, 56),rgb(54, 3, 3));
+    color: floralwhite;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    text-shadow: black;
+}
+header{
+    margin-top: left;
+    text-align: center;
+}
+section{height: 500px;
+padding-bottom: 250px;
+}
+.boxes{
+     
+        float:left; 
+        width:360px; 
+        height:450px; 
+        background-color: white; 
+        text-align: left;
+        box-shadow: 10px 10px 50px gray;
+        border-radius: 15px;
+        padding-top: 20px 20px;
+
+    }
+    
+
