@@ -3,7 +3,9 @@ body{
     background-color: rgb(215, 243, 174);
     height: 100%;
     width: 100%;
-    background: linear-gradient(90deg, rgb(161, 245, 161),white);
+    background: linear-gradient(90deg, rgb(161, 245, 161) 50%,white 50%);
+    margin: 0px;
+    border: 1px;
   
     
 
@@ -51,7 +53,7 @@ padding-bottom: 250px;
 }
 .boxes{
      
-        float:left; 
+        
         width:360px; 
         height:450px; 
         background-color: white; 
@@ -89,9 +91,11 @@ padding-bottom: 250px;
         font-size: 20px;
       }
       
-    hard{
+    .hard{
         margin: 0;
         padding: 0;
+        text-align: center;
+        margin-bottom: 0px;
     }
     
     .container{
@@ -100,7 +104,7 @@ padding-bottom: 250px;
         position: relative;
         background-image: url("inquiry.png");
         background-size: cover;
-        margin-left: 70%;
+        margin-left: 30%;
         margin-top: 10%;
         margin-bottom: 20%;
         background-repeat: no-repeat;
@@ -114,7 +118,7 @@ padding-bottom: 250px;
         font-size: 25px;
         text-align: justify;
         margin-top: 1%;
-        margin-bottom: 40%;
+        
         padding-top: 1px;
         padding-left: 1px;
 
@@ -122,20 +126,18 @@ padding-bottom: 250px;
     .final{
         margin: 0;
         padding: 0;
-        text-align: left;
+        text-align: center;
         column-gap: 0px; 
     } 
-   .end{
-       font-size: 30px;
-       margin-top: 250px;
-       margin-bottom: 0px;
-       column-gap: 1px; 
+    .connected{
+        margin-top: 0px;
+        font-size: 20px;
+        color: gray;
+    }
+    .end img{
+        height: 3%;
+        width: 3%;
+        padding: 10px;
 
-   }
-   .end img{
-       margin-top: 0px;
-       margin-bottom: 0px;
-        height: 50px;
-        width: 50px; 
-        
-   }
+    }
+   
